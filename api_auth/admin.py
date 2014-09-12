@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.conf.urls.defaults import patterns
+from django.conf.urls import patterns
 from django.http import HttpResponseNotFound, HttpResponseRedirect
 from django.core import urlresolvers
 from api_auth.models import Nonce
