@@ -271,7 +271,7 @@ class Signature(object):
                                     "Expected timestamp: %s." % int(time.time()))
         except ValueError:
             raise _AuthException("Invalid timestamp format. Must be integer.")
-        body = request.raw_post_data
+        body = request.body
         consumer = Consumer(consumer_key)
         secret = consumer.get_secret_key()
         signature = Signature.compute_signature(secret, verb, uri, timestamp,
