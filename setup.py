@@ -2,8 +2,8 @@
 from setuptools import setup, find_packages
 setup(
     name = 'piston-api-auth',
-    version = '0.1.1',
-    url = 'https://bitbucket.org/severb/piston-api-auth',
+    version = '0.1.2',
+    url = 'https://github.com/pbs/piston-api-auth',
     license = 'BSD',
     description = "Piston authentication extension that adds per request signing (similar with 2 legged OAuth).",
     author = 'Sever Banesiu',
